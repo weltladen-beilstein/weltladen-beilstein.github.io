@@ -183,6 +183,16 @@ input, select, textarea {
 		padding: 1em 0 1em 2em;
 	}
 
+	p.warning {
+		font-weight: 600;
+		color: #680a0a;
+	}
+
+	#openinghours {
+		text-align: left;
+		margin-left: 1em;
+	}
+
 /* Container */
 
 	.container {
@@ -2542,7 +2552,16 @@ input, select, textarea {
 		#header h1 {
 			padding: 0 0 2.75em 0;
 			margin: 0;
+            text-align: left;
 		}
+
+        #header img {
+            height: 6em;
+            float: left;
+            margin-top: -2em;
+            margin-left: 5em;
+            margin-right: 5em;
+        }
 
 			#header h1 a {
 				font-size: 1.5em;
@@ -2674,10 +2693,11 @@ input, select, textarea {
 /* Banner */
 
 	#banner {
-		background-image: url("../../images/banner.jpg");
+		background-image: url("../../images/banner.png");
 		background-position: center center;
-		background-size: cover;
-		height: 28em;
+		background-size: contain;
+		background-repeat: no-repeat;
+		height: 40em;
 		text-align: center;
 		position: relative;
 	}

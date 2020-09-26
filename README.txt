@@ -1,4 +1,4 @@
-Website des Weltladens Beilstein Oberstenfeld e.V.
+Website des Weltladens Beilstein/Oberstenfeld e.V.
 
 Based on Arcana by HTML5 UP
 html5up.net | @ajlkn

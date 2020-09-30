@@ -10,6 +10,7 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="assets/css/colorbox.css" />
 	</head>
 	<body class="is-preload">
 		<div id="page-wrapper">
@@ -59,7 +60,7 @@
 						<div class="row">
 							<section class="col-6 col-12-narrower">
 								<div class="box post">
-									<a href="#" class="image left"><img src="images/huete.png" alt="" /></a>
+									<a href="images/kunsthandwerk.png" class="popup image left"><img src="images/huete.png" alt="" /></a>
 									<div class="inner">
 										<h3>Hüte</h3>
 										<p>
@@ -220,7 +221,7 @@
 							</section>
 							<section class="col-6 col-12-narrower">
 								<div class="box post">
-									<a href="#" class="image left"><img src="images/mehr_kunsthandwerk.png" alt="" /></a>
+									<a href="images/kunsthandwerk.png" class="popup image left" title="Und noch viel Mehr"><img src="images/mehr_kunsthandwerk.png" alt="" /></a>
 									<div class="inner">
 										<h3>Und noch viel mehr!</h3>
 										<p>
@@ -274,6 +275,11 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<script src="assets/js/jquery.colorbox-min.js"></script>
+			<script src="assets/js/jquery.colorbox-de.js"></script>
+			<script>
+				$("a.popup").colorbox({rel: 'foo', maxWidth:'95%', maxHeight:'95%'});
+			</script>
 
 	</body>
 </html>

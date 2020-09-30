@@ -60,7 +60,7 @@
 						<div class="row">
 							<section class="col-6 col-12-narrower">
 								<div class="box post">
-									<a href="images/kunsthandwerk.png" class="popup image left"><img src="images/huete.png" alt="" /></a>
+									<a href="large_images/huete.png" class="popup image left" title="Hüte"><img src="images/huete.png" alt="" /></a>
 									<div class="inner">
 										<h3>Hüte</h3>
 										<p>
@@ -75,7 +75,7 @@
 							</section>
 							<section class="col-6 col-12-narrower">
 								<div class="box post">
-									<a href="#" class="image left"><img src="images/decken.png" alt="" /></a>
+									<a href="large_images/decken.png" class="popup image left" title="Schals"><img src="images/decken.png" alt="" /></a>
 									<div class="inner">
 										<h3>Schals</h3>
 										<p>
@@ -91,7 +91,7 @@
 						<div class="row">
 							<section class="col-6 col-12-narrower">
 								<div class="box post">
-									<a href="#" class="image left"><img src="images/tasche.png" alt="" /></a>
+									<a href="large_images/tasche.png" class="popup image left" title="Lederwaren"><img src="images/tasche.png" alt="" /></a>
 									<div class="inner">
 										<h3>Lederwaren</h3>
 										<p>
@@ -103,7 +103,7 @@
 							</section>
 							<section class="col-6 col-12-narrower">
 								<div class="box post">
-									<a href="#" class="image left"><img src="images/schmuck.png" alt="" /></a>
+									<a href="large_images/schmuck.png" class="popup image left" title="Schmuck"><img src="images/schmuck.png" alt="" /></a>
 									<div class="inner">
 										<h3>Schmuck</h3>
 										<p>
@@ -120,7 +120,7 @@
 						<div class="row">
 							<section class="col-6 col-12-narrower">
 								<div class="box post">
-									<a href="#" class="image left"><img src="images/spiele.png" alt="" /></a>
+									<a href="large_images/spiele.png" class="popup image left" title="Spiele"><img src="images/spiele.png" alt="" /></a>
 									<div class="inner">
 										<h3>Spiele</h3>
 										<p>
@@ -140,7 +140,7 @@
 							</section>
 							<section class="col-6 col-12-narrower">
 								<div class="box post">
-									<a href="#" class="image left"><img src="images/kinderspielzeug.png" alt="" /></a>
+									<a href="large_images/kinderspielzeug.png" class="popup image left" title="Kinderspielzeug"><img src="images/kinderspielzeug.png" alt="" /></a>
 									<div class="inner">
 										<h3>Kinderspielzeug</h3>
 										<p>
@@ -160,7 +160,7 @@
 						<div class="row">
 							<section class="col-6 col-12-narrower">
 								<div class="box post">
-									<a href="#" class="image left"><img src="images/klangeschalen.png" alt="" /></a>
+									<a href="large_images/klangeschalen.png" class="popup image left" title="Klangschalen"><img src="images/klangeschalen.png" alt="" /></a>
 									<div class="inner">
 										<h3>Klangschalen</h3>
 										<p>
@@ -181,7 +181,7 @@
 							</section>
 							<section class="col-6 col-12-narrower">
 								<div class="box post">
-									<a href="#" class="image left"><img src="images/wohnungseinrichtung.png" alt="" /></a>
+									<a href="large_images/wohnungseinrichtung.png" class="popup image left" title="Wohnungseinrichtungen"><img src="images/wohnungseinrichtung.png" alt="" /></a>
 									<div class="inner">
 										<h3>Wohnungseinrichtungen</h3>
 										<p>
@@ -204,7 +204,7 @@
 						<div class="row">
 							<section class="col-6 col-12-narrower">
 								<div class="box post">
-									<a href="#" class="image left"><img src="images/pflegeprodukte.png" alt="" /></a>
+									<a href="large_images/pflegeprodukte.png" class="popup image left" title="Pflegeprodukte"><img src="images/pflegeprodukte.png" alt="" /></a>
 									<div class="inner">
 										<h3>Pflegeprodukte</h3>
 										<p>
@@ -221,7 +221,7 @@
 							</section>
 							<section class="col-6 col-12-narrower">
 								<div class="box post">
-									<a href="images/kunsthandwerk.png" class="popup image left" title="Und noch viel Mehr"><img src="images/mehr_kunsthandwerk.png" alt="" /></a>
+									<a href="large_images/mehr_kunsthandwerk.png" class="popup image left" title="Und noch viel Mehr"><img src="images/mehr_kunsthandwerk.png" alt="" /></a>
 									<div class="inner">
 										<h3>Und noch viel mehr!</h3>
 										<p>
@@ -278,7 +278,8 @@
 			<script src="assets/js/jquery.colorbox-min.js"></script>
 			<script src="assets/js/jquery.colorbox-de.js"></script>
 			<script>
-				$("a.popup").colorbox({rel: 'foo', maxWidth:'95%', maxHeight:'95%'});
+				/* maxWidth and maxHeight are necessary for responsive stuff to work */
+				$("a.popup").colorbox({rel: 'Kunsthandwerk', maxWidth:'90%', maxHeight:'90%'});
 			</script>
 
 	</body>

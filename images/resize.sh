@@ -7,7 +7,7 @@ do
     mogrify -resize 220 $small
 done
 
-for large in weltladen_aussenansicht.png kunsthandwerk.png lebensmittelregal.png banner.jpg
+for large in weltladen_aussenansicht.png kunsthandwerk.png lebensmittelregal.jpg banner.jpg
 do
     mogrify -resize 1200 $large
 done

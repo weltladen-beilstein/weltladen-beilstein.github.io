@@ -10,6 +10,7 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="assets/css/colorbox.css" />
 	</head>
 	<body class="is-preload">
 		<div id="page-wrapper">
@@ -135,21 +136,42 @@
 				<section class="wrapper style1">
 					<div class="container">
 						<div class="row">
-							<section>
-								<h3>Einladung zur Mitgliederversammlung Weltladenverein Beilstein/Oberstenfeld e.V. 19. Oktober 2020, 19.30 Uhr im Valentin-Wanner-Haus in Beilstein</h3>
-								<p>Tagesordnung:
-								<ol>
-									<li>Begrüßung und Feststellung der Beschlussfähigkeit</li>
-									<li>Bericht des Vorsitzenden</li>
-									<li>Bericht der Schatzmeisterin</li>
-									<li>Bericht der Buchhalterin</li>
-									<li>Bericht der Kassenprüfer</li>
-									<li>Entlastungen</li>
-									<li>Wahlen: Nach 2 Jahren müssen turnusgemäß neu gewählt werden: 1. Vorsitzende/r, stellvertr. Vorsitzende/r, Schatzmeister/in, Protokollführer/in, Kassenprüfer/innen</li>
-									<li>Beschluss über Spendenvergabe</li>
-									<li>Sonstiges</li>
-								</ol>
-								</p>
+							<section class="col-6 col-12-narrower">
+								<div class="box post">
+									<a href="large_images/handtaschen.jpg" class="popup image left" title="Handtaschen"><img src="images/handtaschen.jpg" alt="" /></a>
+									<div class="inner">
+										<h3>
+											Hochwertige Ledertaschen reduziert
+										</h3>
+										<p>
+										Wenn Sie aktuell am Schaufenster unseres kleinen Weltladens in Beilstein
+										vorbeikommen, können Sie dort verschiedene Ledertaschen sehen, die wir
+										reduziert haben. Liebäugeln Sie also eventuell schon länger mit einem
+										dieser schönen Stücke, suchen Sie ein hübsches Geschenk oder möchten Sie
+										sich einfach mal wieder ein tolles und praktisches Accessoire gönnen,
+										dann schauen Sie doch vorbei – vielleicht ist etwas für Sie dabei. Wir
+										freuen uns auf Ihren Besuch.
+										</p>
+									</div>
+								</div>
+							</section>
+							<section class="col-6 col-12-narrower">
+								<div class="post box">
+									<h3>Einladung zur Mitgliederversammlung Weltladenverein Beilstein/Oberstenfeld e.V. 19. Oktober 2020, 19.30 Uhr im Valentin-Wanner-Haus in Beilstein</h3>
+									<p>Tagesordnung:
+									<ol>
+										<li>Begrüßung und Feststellung der Beschlussfähigkeit</li>
+										<li>Bericht des Vorsitzenden</li>
+										<li>Bericht der Schatzmeisterin</li>
+										<li>Bericht der Buchhalterin</li>
+										<li>Bericht der Kassenprüfer</li>
+										<li>Entlastungen</li>
+										<li>Wahlen: Nach 2 Jahren müssen turnusgemäß neu gewählt werden: 1. Vorsitzende/r, stellvertr. Vorsitzende/r, Schatzmeister/in, Protokollführer/in, Kassenprüfer/innen</li>
+										<li>Beschluss über Spendenvergabe</li>
+										<li>Sonstiges</li>
+									</ol>
+									</p>
+								</div>
 							</section>
 						</div>
 						<div class="row">
@@ -222,6 +244,12 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<script src="assets/js/jquery.colorbox-min.js"></script>
+			<script src="assets/js/jquery.colorbox-de.js"></script>
+			<script>
+				/* maxWidth and maxHeight are necessary for responsive stuff to work */
+				$("a.popup").colorbox({rel: 'Index', maxWidth:'90%', maxHeight:'90%'});
+			</script>
 
 	</body>
 </html>
